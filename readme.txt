@@ -1,7 +1,7 @@
 Coucou les copains, 
 Petit template sur la base de celui de olivier.
 AUTHORS:
-	Antonin KENZI
+    Antonin KENZI
 THANKS:
     Olivier MOREL
 CHANGELOG:
