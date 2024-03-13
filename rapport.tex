@@ -64,10 +64,22 @@
 \input{configuration/config_footer_header.tex}
 %chemin des images 
 \graphicspath{{graphics/}} %Setting the graphicspath
+
+\usepackage{caption}
+\DeclareCaptionType{mycapequ}[][Liste des équations]
+\DeclareCaptionLabelFormat{equationFormat}{Équation #2}
+\captionsetup[mycapequ]{labelformat=equationFormat}
+
+%\begin{mycapequ}[!ht]
+%    \begin{ceqn}
+%        \begin{equation*}
 %=================== Script  =============================
 \begin{document}
 \include{chapitre/premiere_page.tex}	
 % enlève le numéro sur la premiere page
+
+\begin{equation}
+\end{equation}
 \tableofcontents
 \input{Reference/reference.tex}
 
